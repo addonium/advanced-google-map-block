@@ -1,0 +1,51 @@
+{
+  "apiVersion": 2,
+  "name": "advanced-google-map-block/google-map",
+  "version": "1.0.0",
+  "title": "Google Map",
+  "category": "advanced-google-map-block",
+  "icon": "location",
+  "description": "Advanced google Map for WordPress Users.",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "keywords": [
+    "google",
+    "map",
+    "location",
+    "address",
+    "place",
+    "maps",
+    "google map"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "default": "Nasa"
+    },
+    "zoom": {
+      "type": "number",
+      "default": 12
+    },
+    "mapType": {
+      "type": "string",
+      "default": "roadmap"
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    },
+    "height": {
+      "type": "number",
+      "default": 350
+    }
+  },
+  "textdomain": "advanced-google-map-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
